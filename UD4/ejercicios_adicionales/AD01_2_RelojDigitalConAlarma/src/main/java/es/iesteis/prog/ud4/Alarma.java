@@ -5,7 +5,9 @@ public class Alarma {
     private int minutos;
 
     public Alarma(){
-        //Nada por ahora. Se setean horas y minutos a cero
+        //Siguiendo el enunciado, establecemos la alarma por defecto a las 7:00
+        hora = 7;
+        minutos = 0;
     }
 
     public void setHoraAlarma(int queHora, int queMinuto){

@@ -51,5 +51,12 @@ public class RelojAlarma {
         return alarma.getHoraAlarma();
     }
 
+    /**
+     * Permite poner en hora el reloj
+     */
+    public void ponerEnHora(int hora, int minutos){
+        reloj.ponerEnHora(hora, minutos);
+    }
+
 
 }

@@ -2,11 +2,11 @@ package es.iesteis.prog.ud4;
 
 /**
  * La clase VisorNumero representa un visor digital que permite almacenar
- * valores entre 0 y un l�mite. El l�mite puede ser especificado cuando se crea
- * el visor. El rango de valores va de 0 a l�mite-1. Si se usa, por ejemplo, para 
- * los segundos un reloj digital, el l�mite ser�a 60, resultando en este caso que 
- * el visor mostrar�a valores entre 0 y 59. Al incrementarse, el visor da la vuelta 
- * autom�ticamente y se pone a 0 al alcanzar el l�mite.
+ * valores entre 0 y un límite. El límite puede ser especificado cuando se crea
+ * el visor. El rango de valores va de 0 a límite-1. Si se usa, por ejemplo, para 
+ * los segundos un reloj digital, el límite sería 60, resultando en este caso que 
+ * el visor mostraría valores entre 0 y 59. Al incrementarse, el visor da la vuelta 
+ * automáticamente y se pone a 0 al alcanzar el límite.
  */
 
 public class VisorNumero 
@@ -32,8 +32,8 @@ public class VisorNumero
     }
 
     /**
-     * Devuelve el valor del visor como una cadena de dos d�gitos
-     * Si el valor es menor que 10 se le a�ade a la iquierda un 0
+     * Devuelve el valor del visor como una cadena de dos dígitos
+     * Si el valor es menor que 10 se le añade a la iquierda un 0
      */
 
     public String getValorVisor()
@@ -48,7 +48,7 @@ public class VisorNumero
 
     /**
      * Pone el valor del visor al nuevo valor especificado. Si el
-     * nuevo valor es menor que 0 o ssupera el l�mite no hace nada
+     * nuevo valor es menor que 0 o ssupera el límite no hace nada
      */
 
     public void setValor(int nuevoValor) 
@@ -60,7 +60,7 @@ public class VisorNumero
 
     /**
      * Incrementa el valor del display en 1, dando la vuelta a cero
-     * si se alcanza el l�mite
+     * si se alcanza el límite
      */
 
     public void incrementar() 

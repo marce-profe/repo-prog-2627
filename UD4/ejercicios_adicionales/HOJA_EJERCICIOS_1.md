@@ -73,7 +73,7 @@ nuevo método en la clase `TestReloj` incluyendo el método `test3()`.
 ## Ejercicio 3
 
 - Abre el proyecto *EJAD03 Circulo y Punto*. Analiza el código de la clase `Punto`. Esta clase no
-  hay que modificarla de momento. Pruébala creando varios objetos `Punto` y llamando al método
+  hay que modificarla de momento. Pruébala (crea un main dentro de la propia clase) creando varios objetos `Punto` y llamando al método
   `toString()`.
 - La clase `Circulo` modela círculos de un centro y un radio determinados. Se trata de completar
   el código de esta clase. El diagrama UML muestra los atributos y métodos que incluye la clase.

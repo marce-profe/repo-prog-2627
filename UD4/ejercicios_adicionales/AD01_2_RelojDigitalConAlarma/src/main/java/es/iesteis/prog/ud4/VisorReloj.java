@@ -5,7 +5,7 @@ package es.iesteis.prog.ud4;
  * estilo 24 horas europeo. El reloj muestra horas y minutos. El rango del reloj es
  * 00:00 (medianoche) a 23:59 (un minuto antes de medianoche)
  * 
- * El reloj recibe "ticks" (via m�todo emitirTicReloj) cada minuto y reacciona 
+ * El reloj recibe "ticks" (via método emitirTicReloj) cada minuto y reacciona 
  * incrementando el visor. Esto se hace de la manera habitual: la hora se incrementa 
  * cuando los minutos alcanzan de nuevo el valor cero.
  */
@@ -32,7 +32,7 @@ public class VisorReloj
       
     /**
      * Constructor de objetos VisorReloj. Este constructor crea un nuevo
-     * reloj puesto en hora a lpartir de los par�metros pasaados 
+     * reloj puesto en hora a lpartir de los parámetros pasaados 
      * al constructor
      */
 
@@ -45,7 +45,7 @@ public class VisorReloj
     }
 
     /**
-     * Este m�todo deber�a llamarse una vez cada minuto - 
+     * Este método debería llamarse una vez cada minuto - 
      * permite que el reloj avance un minuto
      */
 
